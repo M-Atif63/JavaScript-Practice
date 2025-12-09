@@ -56,3 +56,86 @@
 // if (x > 9) {
 //     alert("Matched");
 // }
+
+
+
+
+
+
+
+
+
+// var number = ["1)","2)","3)","4)","5)","6)","7)","8)","9)"]
+// var students = ["muhammed","atif","ali","ahmed","ghous","asad","hasan","hussain","ahmed"]
+// // console.log(number[0] + students[0])
+// // console.log(number[1] + students[1])
+// // console.log(number[2] + students[2])
+// // console.log(number[3] + students[3])
+// // console.log(number[4] + students[4])
+
+// for (var i = 0; i < students.length; i++) {
+//     console.log(number[i] + students[i])
+// }
+
+
+
+
+// var hi = ["Hi, "]
+// var students = ["muhammed","atif","ali","ahmed","ghous","asad","hasan","hussain","ahmed"]
+
+// for (var i = 0; i = students.length; i++) {
+//     console.log(hi + students[i]);
+// }
+
+
+// var input = prompt("Enter your value");
+
+// var firstChar = input.slice(0,1);
+// var firstValue = firstChar.toUpperCase();
+
+// var secondChar = input.slice(1);
+// var secondValues = secondChar.toLowerCase();
+
+// var result = firstValue + secondValues;
+// console.log(result);
+
+
+
+// var arr = ["muhammed","ahmed","atif","ali","faiq","rafiq","qasim"];
+// var firstChar = arr[0].toUpperCase();
+// console.log(firstChar);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
