@@ -106,12 +106,50 @@
 // console.log(firstChar);
 
 
+// =======practie of======== 
+// ========chap no 12==========
+// ========if statement and else if statement===========
+
+// var output = prompt("Enter your detail?");
+// var userFirstName = "muhammed";
+// userFirstName = userFirstName.slice(0.1);
+// var userFirstNameFirstLatter = userFirstName.toUpperCase;
+// userFirstName = userFirstName.slice(1);
+// var userFirstNameSecondLatter = userFirstName.toLowerCase;
+// var newUserName = userFirstNameFirstLatter + userFirstNameSecondLatter;
+// var userSecondName = "Ahmed";
+// var userPresent = "you're present"
+// var userDelay = 15;
+// var rollNum = 2520;
+// var output = prompt("Enter your details");
+
+// if (newUserName === "Muhammed") {
+//         console.log("yes you are present")
+    
+// }
 
 
+// ======Example of Nested Array========
 
+// var yourName = prompt("Enter your name");
+// var yourIdNumber;
+// var yourRollNumber;
 
-
-
+// if (yourName === "muhammed") {
+//     yourIdNumber =  prompt("Enter Your Id number")
+//    if (yourIdNumber === "786") {
+//     yourRollNumber = prompt("Enter your Roll number")
+//     if (yourRollNumber === "1515") {
+//         console.log("You, are Enrolled");
+//     }
+//    }
+//    else{
+//     console.log("Plesae, fill the correct id number");
+//     }
+// } 
+// else{
+//     console.log("You, Are No Enrolled");
+// }
 
 
 
