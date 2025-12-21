@@ -125,7 +125,7 @@
 
 // if (newUserName === "Muhammed") {
 //         console.log("yes you are present")
-    
+
 // }
 
 
@@ -136,18 +136,20 @@
 // var yourRollNumber;
 
 // if (yourName === "muhammed") {
-//     yourIdNumber =  prompt("Enter Your Id number")
-//    if (yourIdNumber === "786") {
-//     yourRollNumber = prompt("Enter your Roll number")
-//     if (yourRollNumber === "1515") {
-//         console.log("You, are Enrolled");
+//     yourIdNumber = prompt("Enter Your Id number")
+//     // console.log("Plesae, fill the correct id number");
+//     if (yourIdNumber === "786") {
+//         yourRollNumber = prompt("Enter your Roll number")
+//         console.log("Please, Enter Your Correct Roll Number")
+//         if (yourRollNumber === "1515") {
+//             console.log("You, are Enrolled");
+//         }
 //     }
-//    }
-//    else{
-//     console.log("Plesae, fill the correct id number");
-//     }
-// } 
-// else{
+//        else{
+//         console.log("Plesae, fill the correct id number");
+//         }
+// }
+// else {
 //     console.log("You, Are No Enrolled");
 // }
 
