@@ -154,6 +154,71 @@
 // }
 
 
+// var fName = prompt("What Is Your First Name");
+// var fLatter = fName.slice(0,1)
+// fLatter = fLatter.toUpperCase();
+// var nLatter = fName.slice(1);
+// nLatter = nLatter.toLowerCase();
+// var firstName = fLatter + nLatter;
+// // console.log("firsttName==>",firstName);
+
+// var lName = prompt("What Is Your Last Name");
+// var fLatt = lName.slice(0,1);
+// fLatt = fLatt.toUpperCase();
+// var nLatt = lName.slice(1);
+// nLatt = nLatt.toLowerCase();
+// var lastName = fLatt + nLatt;
+// var fullName = firstName + " " + lastName;
+// console.log(fullName);
+
+// if (firstName == "muhammed" && lastName == "atif") {
+//     console.log("mil gaya")
+// }
+
+// var fName = ["Muhammed","Muhammed","Muhammed","Muhammed","Muhammed","Muhammed","Muhammed","Muhammed","Muhammed","Muhammed"];
+// var studentsName = ["atif","ghous","zain","ahmed","ali","bakr","zaid","umer","khalid","saad"];
+// var serialNo = [1,2,3,4,5,6,7,8,9,10];
+
+// for (var i = 0; i <= studentsName.length; i++) {
+//     console.log(serialNo[i] +  ") "  + fName[i] + " " +studentsName[i]);
+// }
+
+// var tNum = [1,2,3,4,5,6,7,8,9,10];
+// var rNum = [2,4,6,8,10,12,14,16,18,20];
+
+// for (var i = 0; i = tNum.length; i++) {
+//     console.log("2" + " x " + tNum[i] + " = " + rNum[i]);
+// }
+
+
+// var table = prompt();
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log(table + " x " + i + " = " + table*i);
+// }
+
+
+
+
+// var tNum = 5;
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log(tNum + " x " + i + " = " + tNum*i);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
