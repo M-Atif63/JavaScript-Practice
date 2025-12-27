@@ -1,0 +1,70 @@
+// console.log("hello, world");
+
+// ====== Random Numbers ========
+
+// var randomNum = Math.random();
+// console.log(randomNum);
+
+// var randomNumFirst = Math.random();
+// var randomNumSec = Math.random();
+// var subtractRandomNumbers = randomNumFirst + randomNumSec;
+// console.log(subtractRandomNumbers);
+
+
+// var randomNumFirst = Math.random();
+// var randomNumSec = Math.random();
+// var subtractRandomNumbers = randomNumFirst * randomNumSec;
+// console.log(subtractRandomNumbers);
+
+// var randomNum = Math.random();
+// var addedOneInRandom = randomNum + 1;
+// console.log(addedOneInRandom);
+
+// var randomNum = Math.random();
+// var addedOneInRandom = randomNum - 1;
+// console.log(addedOneInRandom);
+
+// ===== converting strings to integers and decimal =======
+
+// +prompt.() plus sign is used for converting string to integers;
+
+// Number(userAge) Numbers method is used for converting strings to integers;
+
+// parseInt(userAge) parseInt method is used for converting strings to integers;
+
+// var userAge = +prompt("Enter Your Age");
+// var plusInAge = userAge + 1;
+// console.log(plusInAge);
+
+// var userAge = +prompt("Enter Your Age");
+// var plusInAge = userAge - 1;
+// console.log(plusInAge);
+
+// var userAge = +prompt("Enter Your Age");
+// var plusInAge = userAge / 1;
+// console.log(plusInAge);
+
+// var userAge = +prompt("Enter Your Age");
+// var plusInAge = userAge * 2 + 1;
+// console.log(plusInAge);
+
+// var userAge = +prompt("Enter Your Age");
+// var plusInAge = userAge * 1;
+// console.log(plusInAge);
+
+
+// var userAge = prompt("Enter Your Age");
+// var plusInAge = Number(userAge) + 1;
+// console.log(plusInAge);
+
+// var userAge = prompt("Enter Your Age");
+// var plusInAge = parseInt(userAge) + 1;
+// console.log(plusInAge);
+
+// parseFloat(); parseFloat method is used for converting string to integers and decimal;
+
+// var myNum = "1.1999922222";
+// var Num = parseFloat(myNum) + 1.1;
+// console.log(Num);
+
+// ===== converting strings to numbers numbers to strings ======
