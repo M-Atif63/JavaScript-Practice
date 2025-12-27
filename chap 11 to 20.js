@@ -207,6 +207,102 @@
 // }
 
 
+// var firstName = "muhammed";
+// var fL = firstName.slice(0, 1)
+// fL = fL.toUpperCase();
+// var nL = firstName.slice(1);
+// nL = nL.toLowerCase();
+// var fName = fL + nL;
+
+// var lastName = "muhammed";
+// var lastFL = lastName.slice(0, 1)
+// lastFL = lastFL.toUpperCase();
+// var lastNL = lastName.slice(1)
+// lastNL = lastNL.toUpperCase();
+// var lName = lastFL + lastNL;
+
+// var fullName = fName + " " + lName;
+
+
+// var rollNumberOfStudents = [1, 2, 3, 4, 5, 6];
+
+// var rollNumberOfMuhammed = 1;
+// var rollNumberOfAhmed = 2;
+// var rollNumberOfAli = 3;
+// var rollNumberOfSaad = 4;
+// var rollNumberOfAsad = 5;
+// var rollNumberOfAbuBakr = 6;
+
+// var flag = "no";
+
+// for (var i = 0; i = rollNumberOfStudents.length; i++) {
+//     if (fullName === "muhammed muhammed" || fullName === "muhammed ahmed" || fullName === "muhammed ali" || fullName === "muhammed saad"
+//          || fullName === "muhammed asad" || fullName === "muhammed abubakr") {
+//             console.log("yes, you are enrolled");
+//     }
+//     flag = "yes";
+// }
+
+// console.log("atif");
+
+// var fName = ["muhammed" , "muhammed" , "muhammed" , "muhammed" , "muhammed"];
+// var sName = ["ali" , "ahmed" , "saad" , "asad" , "bilal"];
+
+// for (var i = 1; i < 2; i++) {
+//     for (var j = 0; j < sName.length; j++){
+//         console.log(fName[i]+ " " +sName[j]);
+//     }
+// }
+
+// ===== Rounded Numbers =====
+// var math = Math.round(Math.random());
+// console.log(math); 
+
+// ====== Concadinate Plus Rounded Numbers =====
+// var characterIstics = 9;
+// var mNum = 1.234567890;
+// var newMNum = Math.round(mNum);
+// console.log(newMNum);
+
+// ====== Concadinate Plus Rounded Numbers =====
+// var characterIstics = 9;
+// var mantissa = 1521;
+// var totalNum = characterIstics + "." + mantissa;
+// var roundedNum = Math.round(totalNum);
+// console.lo5(roundedNum);
+
+// ====== Concadinate Plus Rounded Numbers =====
+// var characterIstics = 11;
+// var mantissa = 5121;
+// var totalNum = characterIstics + "." + mantissa;
+// var roundedNum  = Math.round(totalNum);
+// console.log(roundedNum);
+
+
+// var char = 6;
+// var firstMantissa = .4;
+// var secondMantissa = .0;
+
+// var concadinated = char + firstMantissa + secondMantissa;
+// var roundedNum = Math.round(concadinated);
+// console.log(roundedNum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
