@@ -98,12 +98,26 @@
 // Number(); is used for converting string to numbers(work on all string);
 
 // === before in numbers
-var strValue = 10;
-console.log(strValue);
+// var strValue = 10;
+// console.log(strValue);
 
-// === after in string
-var strValue = 10;
-var strToNum = strValue.toString();
-var concadinateOne = strValue + 1;
-console.log(concadinateOne);
+// // === after in string
+// var strValue = 10;
+// var strToNum = strValue.toString();
+// var concadinateOne = strValue + 1;
+// console.log(concadinateOne);
 
+// ===== Controlling the length of decimal;======
+
+// .toFixed(); is used for fixed the length of decimal
+
+// var nonFixedDecimal = 1.562625;
+// var fixedDecimal = nonFixedDecimal.toFixed(2);
+// console.log(fixedDecimal);
+
+// var str = 1.23454;
+// str = str.toString();
+// if (str.charAt(str.length - 1) === "4") {
+//     str = str.slice(0 , str.length - 1) + "6"
+//     console.log(str);
+// }
