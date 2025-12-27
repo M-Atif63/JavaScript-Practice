@@ -67,4 +67,43 @@
 // var Num = parseFloat(myNum) + 1.1;
 // console.log(Num);
 
+
+// parseInt(); is used for converting string to integer only
+
+// var parseIntNum = "2.12";
+// var plusInParseInt = parseInt(parseIntNum) + 11.10001;
+// console.log(plusInParseInt);
+
+// parseFloat(); is used for converting strings to integer and decimal;
+
+// var parseFloatNum = "2.65663";
+// var addition = parseFloat(parseFloatNum) + 2.12345;
+// console.log(addition);
+
+// var parseFloatNum = "4.65663";
+// var addition = parseFloat(parseFloatNum) / 10.12345;
+// console.log(addition);
+
+// var parseFloatNum = "11.65663";
+// var addition = parseFloat(parseFloatNum) * 1.12345;
+// console.log(addition);
+
+// var parseFloatNum = "6.65663";
+// var addition = parseFloat(parseFloatNum) - 5.12345;
+// console.log(addition);
+
+
 // ===== converting strings to numbers numbers to strings ======
+
+// Number(); is used for converting string to numbers(work on all string);
+
+// === before in numbers
+var strValue = 10;
+console.log(strValue);
+
+// === after in string
+var strValue = 10;
+var strToNum = strValue.toString();
+var concadinateOne = strValue + 1;
+console.log(concadinateOne);
+
