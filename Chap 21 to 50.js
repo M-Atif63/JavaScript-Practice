@@ -284,3 +284,80 @@
 // setDate.setMilliseconds(12);
 // console.log(setDate);
 
+// ES5 Function
+// function (); this called Loose mode , Independent mode OR Stick mode; <==== This is ES5 Function;
+
+// ====> ES6 Function;
+// function myFunction (myValue"<===this is a Perimeter") {
+    // <==this is called Block scope ==>
+    // console.log(myVAlue <=="This is Invoke");
+// } Before the invoke This is Blue Print function; <===== This is ES6 Function;
+// myFunction("Muhammed");
+
+// Console Example
+
+// function myFunction (myFirstName, myLastName) {
+//     console.log(myFirstName , myLastName);
+// }
+// myFunction("Muhammed","Atif Ali");
+// myFunction("Ahmed","Atif",);
+
+// function myFunction () {
+//     var myYears = new Date("Oct 27, 2006").getTime();
+//     var currYear = new Date().getTime();
+//     var totalYears = myYears - currYear;
+//     var myTotalYears = Math.ceil(totalYears / (1000*60*60*24));
+//     console.log(myTotalYears);
+// }
+// myFunction();
+
+
+// function myFunction () {
+//     var totalYear = new Date("Oct 27, 2006").getTime() - new Date().getTime();
+//     var myTotalYears = Math.ceil(totalYear / (1000 * 60 * 60 * 24));
+//     console.log(myTotalYears);
+// }
+// myFunction();
+
+// function myFunction () {
+//     var myChoice = new Date();
+//     myChoice.setFullYear(2006);
+//     myChoice.setMonth(9);
+//     myChoice.setDate(27);
+//     myChoice.setHours(12);
+//     myChoice.setMinutes(12);
+//     myChoice.setSeconds(12);
+//     var totalYears = myChoice.getTime() - new Date().getTime();
+//     var myTotalYears = Math.ceil(totalYears / (1000*60*60*24));
+//     console.log(myTotalYears);
+// }
+// myFunction();
+
+// var orderTot;
+// var merchTot = +prompt("Enter Your Value");
+// if (merchTot >= 100) {
+// orderTot = merchTot;
+// }
+// else if (merchTot < 50.01) {
+//     orderTot = merchTot + 5;
+// }
+// else {
+// orderTot = merchTot + 5 + (.03 * (merchTot - 50));
+// }
+// console.log(orderTot);
+
+// function myFunction () {
+//     var merchTotal = +prompt("Enter Your Value");
+//     var orderTotal;
+//     if (merchTotal >= 100) {
+//         orderTotal = merchTotal;
+//     }
+//     else if (merchTotal > 50) {
+//         orderTotal = merchTotal + 5;
+//     }
+//     else{
+//         orderTotal = merchTotal + 5 + (.03 * (merchTotal - 50));
+//     }
+//     console.log(orderTotal);
+// }
+// myFunction();
