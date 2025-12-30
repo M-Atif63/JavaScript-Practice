@@ -1,6 +1,6 @@
 // console.log("hello, world");
 
-// ====== Random Numbers ========
+// ======> Random Numbers <========
 
 // var randomNum = Math.random();
 // console.log(randomNum);
@@ -24,7 +24,7 @@
 // var addedOneInRandom = randomNum - 1;
 // console.log(addedOneInRandom);
 
-// ===== converting strings to integers and decimal =======
+// =======> converting strings to integers and decimal <=======
 
 // +prompt.() plus sign is used for converting string to integers;
 
@@ -93,21 +93,21 @@
 // console.log(addition);
 
 
-// ===== converting strings to numbers numbers to strings ======
+// =====> converting strings to numbers numbers to strings <======
 
 // Number(); is used for converting string to numbers(work on all string);
 
-// === before in numbers
+// ===> before in numbers
 // var strValue = 10;
 // console.log(strValue);
 
-// // === after in string
+// // ===> after in string
 // var strValue = 10;
 // var strToNum = strValue.toString();
 // var concadinateOne = strValue + 1;
 // console.log(concadinateOne);
 
-// ===== Controlling the length of decimal;======
+// =====> Controlling the length of decimal; <======
 
 // .toFixed(); is used for fixed the length of decimal
 
@@ -123,7 +123,7 @@
 // }
 
 
-// ===== Getting the current date and time =====
+// =====> Getting the current date and time <=====
 // var currentDate = new Date();
 // console.log(currentDate);
 
@@ -161,7 +161,7 @@
 
 
 
-//  ===== Specifing Date and time =======
+//  =====> Specifing Date and time <=======
 
 // var currDate = new Date();
 // console.log(currDate);
@@ -177,7 +177,7 @@
 // console.log(addedTime);
 
 
-// ====== Math floor method and ceil methos;
+// ======> Math floor method and ceil methos;
 
 // var bigDecimal = Math.random();
 // console.log(bigDecimal);
@@ -190,21 +190,21 @@
 // console.log(numberOfStars);
 
 // Differnce between round , ceil and floor;
-// ==== examples of round;
+// ======> examples of round;
 // var scoreAvg = Math.round(.000001);
 // console.log(scoreAvg);
 
 // var scoreAvg = Math.round(.540000);
 // console.log(scoreAvg);
 
-// ====== examples of ceil;
+// ======> examples of ceil;
 // var scoreAvg = Math.ceil(.0000001);
 // console.log(scoreAvg);
 
 // var scoreAvg = Math.ceil(.5400000);
 // console.log(scoreAvg);
 
-// ==== examples of floor;
+// =====> examples of floor;
 // var scoreAvg = Math.floor(.000005);
 // console.log(scoreAvg);
 
@@ -243,7 +243,7 @@
 // var decimalOfCeil = Math.floor(-.54000000);
 // console.log(decimalOfCeil);
 
-// ===== Specifying Time;
+// =====> Specifying Time;
 // var SpecifedTime = new Date("jan 1, 2020 12:11:06");
 // console.log(SpecifedTime);
 
@@ -272,3 +272,15 @@
 // // console.log(totalYears);
 // var totalDays = Math.floor(totalYears / (1000 * 60 * 60 * 24));
 // console.log(totalDays);
+
+// ====> Changing elements of a date and time;
+// var setDate = new Date();
+// setDate.setHours(12);
+// setDate.setMinutes(12);
+// setDate.setSeconds(12);
+// setDate.setFullYear(2006);
+// setDate.setMonth(9);
+// setDate.setDate(27);
+// setDate.setMilliseconds(12);
+// console.log(setDate);
+
