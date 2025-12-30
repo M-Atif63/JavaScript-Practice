@@ -159,3 +159,87 @@
 // console.log(concadinated);
 
 
+
+
+//  ===== Specifing Date and time =======
+
+// var currDate = new Date();
+// console.log(currDate);
+
+// var doomsday = new Date("Oct 27 , 2030");
+// console.log(doomsday);
+
+// var changeFullYear = new Date("jan 1, 2026");
+// console.log(changeFullYear);
+
+// var changeDate = new Date("jun 6, 2025");
+// var addedTime = changeDate.getTime();
+// console.log(addedTime);
+
+
+// ====== Math floor method and ceil methos;
+
+// var bigDecimal = Math.random();
+// console.log(bigDecimal);
+// var numberOfStars = Math.ceil(bigDecimal)
+// console.log(numberOfStars);
+
+// var bigDecimal = Math.random();
+// console.log(bigDecimal);
+// var numberOfStars = Math.floo(bigDecimal)
+// console.log(numberOfStars);
+
+// Differnce between round , ceil and floor;
+// ==== examples of round;
+// var scoreAvg = Math.round(.000001);
+// console.log(scoreAvg);
+
+// var scoreAvg = Math.round(.540000);
+// console.log(scoreAvg);
+
+// ====== examples of ceil;
+// var scoreAvg = Math.ceil(.0000001);
+// console.log(scoreAvg);
+
+// var scoreAvg = Math.ceil(.5400000);
+// console.log(scoreAvg);
+
+// ==== examples of floor;
+// var scoreAvg = Math.floor(.000005);
+// console.log(scoreAvg);
+
+// var bigDecimal = Math.random();
+// console.log(bigDecimal);
+// var improvedNum = Math.floor(bigDecimal * 4) + 3;
+// console.log(improvedNum);
+
+// var firstInteger = Math.random();
+// console.log(firstInteger);
+// var firstDecimal = Math.floor(firstInteger * 2);
+// console.log(firstDecimal);
+
+// var firstInteger = Math.random();
+// console.log(firstInteger);
+// var firstDecimal = Math.floor(firstInteger * 5) + 2;
+// console.log(firstDecimal);
+
+// var numberOfStars = Math.floor(improvedNum);
+// console.log(numberOfStars);
+
+// var scoreAvg = Math.floor(.540000);
+// console.log(scoreAvg);
+
+// // Example of ceil in minus value;
+// var decimalOfCeil = Math.ceil(-.0000001);
+// console.log(decimalOfCeil);
+
+// var decimalOfCeil = Math.ceil(-.54000000);
+// console.log(decimalOfCeil);
+
+// Example of floor in minus value;
+// var decimalOfCeil = Math.floor(-.0000001);
+// console.log(decimalOfCeil);
+
+// var decimalOfCeil = Math.floor(-.54000000);
+// console.log(decimalOfCeil);
+
