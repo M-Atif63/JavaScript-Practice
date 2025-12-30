@@ -121,3 +121,41 @@
 //     str = str.slice(0 , str.length - 1) + "6"
 //     console.log(str);
 // }
+
+
+// ===== Getting the current date and time =====
+// var currentDate = new Date();
+// console.log(currentDate);
+
+// var currentDate = new Date();
+// var fullYear = currentDate.getFullYear();
+// console.log(fullYear);
+
+// var currentDate = new Date();
+// var onlyDate = currentDate.getDate() + " Dec";
+// console.log(onlyDate);
+
+// var currentDay = new Date();
+// var onlyDay = currentDay.getDay() + " Monday";
+// console.log(onlyDay);
+
+// var currentHours = new Date();
+// var onlyHours = currentHours.getHours() + " Hours";
+// console.log(onlyHours);
+
+// var currentMinutes = new Date();
+// var onlyMinute = currentMinutes.getMinutes() + " Min";
+// console.log(onlyMinute);
+
+// var currentSecond = new Date();
+// var onlySecond = currentSecond.getSeconds() + " Sec";
+// console.log(onlySecond);
+
+// var currentMillisecond = new Date();
+// var onlyMilliseconds = currentMillisecond.getMilliseconds() + " MilliSec";
+// console.log(onlyMilliseconds);
+
+// // var concadinated = onlyDay + " " + onlyDate + " " + fullYear + " " + onlyHours + " " + onlyMinute + " " + onlySecond + " " + onlyMilliseconds;
+// console.log(concadinated);
+
+
