@@ -243,3 +243,32 @@
 // var decimalOfCeil = Math.floor(-.54000000);
 // console.log(decimalOfCeil);
 
+// ===== Specifying Time;
+// var SpecifedTime = new Date("jan 1, 2020 12:11:06");
+// console.log(SpecifedTime);
+
+// var specified = new Date("jan 12 , 2020 12:12:12");
+// console.log(specified);
+
+// minus 2035 to current years and div
+// var specDate = new Date("june 30, 2035").getTime();
+// var currDate = new Date().getTime();
+// var dividedYears = specDate - currDate;
+// var diviTotal = Math.floor(dividedYears / (1000 * 60 * 60 * 24));
+// var addedfixed = parseInt(diviTotal.toFixed(0));
+// console.log(addedfixed);
+
+// var specifiedDate = new Date("June 30, 2035").getTime() - new Date().getTime();
+// var daysTillDoom = Math.floor(specifiedDate / (1000 * 60 * 60 * 24));
+// console.log(daysTillDoom);
+
+// var myDate = new Date("oct 27, 2006").getTime() - new Date().getTime(); 
+// var totalDays = Math.ceil(myDate / (1000  * 60 * 60 * 24));
+// console.log(totalDays);
+
+// var myDate = new Date("Oct 27, 2006").getTime();
+// var currDate = new Date().getTime();
+// var totalYears = myDate - currDate;
+// // console.log(totalYears);
+// var totalDays = Math.floor(totalYears / (1000 * 60 * 60 * 24));
+// console.log(totalDays);
