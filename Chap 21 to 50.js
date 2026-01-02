@@ -394,3 +394,24 @@
 // }
 // var myName = "Muhammed Atif"
 // console.log(PassingDataBackFromTheme(myName))
+
+// ==> Local And Global Variable Examples <== 
+// ==> Global Variable
+// var globalVariable = "This is a 'Global Variable' "
+// console.log(globalVariable);
+
+
+// ==> Local Variable
+// function localVariableFunction () {
+//     var localVariable = "This is a 'local Variable'"
+//     console.log(localVariable);
+// }
+// localVariableFunction();
+
+// Global Variable  
+//1)Declared In main code 
+//2)Known everyWhere, Useable everywhere
+
+// Local Variable
+//1)Decaled in a function
+//2)Known only inside the function, useable only inside the function;
