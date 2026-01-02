@@ -289,8 +289,8 @@
 
 // ====> ES6 Function;
 // function myFunction (myValue"<===this is a Perimeter") {
-    // <==this is called Block scope ==>
-    // console.log(myVAlue <=="This is Invoke");
+// <==this is called Block scope ==>
+// console.log(myVAlue <=="This is Invoke");
 // } Before the invoke This is Blue Print function; <===== This is ES6 Function;
 // myFunction("Muhammed");
 
@@ -361,3 +361,36 @@
 //     console.log(orderTotal);
 // }
 // myFunction();
+
+
+// =====>Types Of Function <=====
+// There are two types of function
+// 1) Normal function
+// 2) Arrow Function
+
+// Normal Function Code
+// function myFunction () {console.log("atif");}
+// myFunction();
+
+// Arrow Function Code
+// var firstFunc ()=>{console.log("atif");}
+// firstFunc();
+
+// ====>Passing Theme Data <====
+// function firstFunc (fName,lName) { // <== This is parameter
+//     console.log(fName,lName);
+// }
+// firstFunc("Muhammed","Atif"); // <== This is Argument
+
+// ==> Passing Data Back From Them <==
+// function PassingDataBackFromTheme (myName) {
+//     return myName;
+// }
+// console.log(PassingDataBackFromTheme("Muhammed Atif"))
+
+
+// function PassingDataBackFromTheme (myName) {
+//     return myName;
+// }
+// var myName = "Muhammed Atif"
+// console.log(PassingDataBackFromTheme(myName))
