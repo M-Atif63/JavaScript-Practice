@@ -415,3 +415,61 @@
 // Local Variable
 //1)Decaled in a function
 //2)Known only inside the function, useable only inside the function;
+
+// ===> Switch Statement <===
+
+// ===>This is a example of if & else if statement
+// var dayOfWk = prompt("Enter day"); 
+// var dayOfWkToLowerCAse = dayOfWk.toLowerCase();
+// if (dayOfWk === "Sat" || dayOfWk === "Sun") {
+//     alert("Whoopee!");
+// }
+// else if (dayOfWk === "Fri") {
+//     alert("TGIF!");
+// } else {
+//     alert("Shoot me now!");
+// }
+
+// ===> This is a Example of Switch Statement 
+// var dayOfWk = prompt("Enter day"); 
+// switch (dayOfWk) {
+//         case "sun":
+//         case "sat":
+//         console.log("Whoopee");
+//         break;
+//         case "fri":
+//         console.log("TGLF!");
+//         break;
+//     default:
+//         console.log("Shoot Me Now");
+//         break;
+// }
+
+// ==> Next Example
+// var userNAme = prompt("Enter your name");
+// switch (userNAme) {
+//     case "ali":
+//         console.log("mil gaya");
+//         break;
+//     case "asad":
+//         console.log("nahi ho");
+//         break;
+//     case "saad":
+//         console.log("abhi nahi mila");
+//         break;
+//     default:
+//      console.log("milne wala hai");
+//      break;
+// }
+
+// ==> Uses of If Statement and Switch Statement
+
+// ==> If Statement Uses
+// 1)If statement is used for complex logics.
+// 2)If statement is used for Multiple statment.
+
+// ==> Switch Statement Uses
+// 1)Switch Statement is used for simple logics.
+// 2)Switch statement is used for single statement.
+
+
