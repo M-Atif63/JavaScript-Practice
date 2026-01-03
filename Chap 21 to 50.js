@@ -473,3 +473,46 @@
 // 2)Switch statement is used for single statement.
 
 
+// ===> Uses Of For loop and And While Loop.
+
+// ==> For loop Uses
+// 1)if you known to the length of array use "For Loop".
+
+
+// Examples of for loop
+// var stuNames = ["ali","zain","ahmed","saad","asad","moiz","atif","faiq","hasan","hussain"]
+// for (var i = 0; i <= stuNames.length-1; i++) {
+//     console.log(1+i + ")" + stuNames[i]);
+// }
+
+// var tableNum = prompt();
+// for (var i = 1; i <= 10; i++) {
+//     console.log(tableNum + " x " + i + " = " + i*tableNum);
+// }
+
+
+// ==> While Loop Uses
+// 1)if you don't known to the length of array use "While Loop"
+
+
+// Examples While Loop
+// var stuNames = ["ali","zain","ahmed","saad","asad","moiz","atif","faiq","hasan","hussain"]
+// var i = 0;
+// while (i < 10) {
+//     console.log(1+i + ") " + stuNames[i])
+//     i++;
+// }
+
+// var tableNum = prompt();
+// var i = 1;
+// while (i <= 10) {
+//     console.log(tableNum + " x " + i + " = " + i*tableNum);
+//     i++;
+// }
+
+
+// var i = 0;
+// do {
+//     alert(i);
+//     i++;
+// } while (i <= 3);
