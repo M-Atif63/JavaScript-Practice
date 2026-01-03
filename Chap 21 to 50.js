@@ -510,9 +510,34 @@
 //     i++;
 // }
 
+// var i = 0;
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
 
+// ===> Do While loop Examples
 // var i = 0;
 // do {
 //     alert(i);
 //     i++;
 // } while (i <= 3);
+
+// var tableNum = prompt();
+// var i = 1;
+// do {
+//     console.log(tableNum + " x " +  i + " = " + i*tableNum);
+//     i++;
+// } while (i <= 10);
+
+// var stuNames = ["ali","zain","ahmed","saad","asad","moiz","atif","faiq","hasan","hussain"]
+// var i = 0;
+// do {
+//     console.log(1+i + ") " + stuNames[i]);
+//     i++;
+// } while (i < 10)
+
+// The Do While Loop is same to same While Loop but code Standard is different.
+
+
+// Events
