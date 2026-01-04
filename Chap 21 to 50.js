@@ -541,3 +541,88 @@
 
 
 // Events
+
+// function checkCampus() {
+//     var rollNum;
+//     var campus;
+//     switch (rollNum) {
+//         case 12:
+//             campus = "Zaitoon Ashraf Campus"
+//             break;
+//         case 15:
+//             campus = "Zamzama Campus"
+//             break;
+//         case 25:
+//             campus = "Bahadurabad Campus"
+//             break;
+//         default:
+//             campus = "You Are Not Enrolled"
+//     }
+//     document.getElementById("").value = campus
+// }
+
+
+
+
+// function checkCam() {
+//     var campus;
+//     var rollNumber = document.getElementById("roll").value
+//     switch (rollNumber) {
+//         case "112":
+//             campus = "Zaitoon Ashraf Campus"
+//             break;
+//         case "115":
+//             campus = "Zamzama Campus"
+//             break;
+//         case "125":
+//             campus = "Bahadurabad Campus"
+//             break;
+//         default:
+//             campus = "Nahi hai"
+//             break;
+//     }
+//     document.getElementById("cam").value = campus;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function fillCity() {
+//     var cityName;
+//     var zipEntered = document.getElementById("zip").value;
+//     switch (zipEntered) {
+//         case "60608":
+//             cityName = "Chicago";
+//             break;
+//         case "68114":
+//             cityName = "Omaha";
+//             break;
+//         case "53212":
+//             cityName = "Milwaukee";
+//     }
+//     document.getElementById("city").value = cityName;
+// }
