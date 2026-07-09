@@ -603,30 +603,97 @@
 
 // ====> Events:Button <====
 // function myMess (myData) {
-        //     console.log(myData);
-        //     alert(myData);
-        // }
+//     console.log(myData);
+//     alert(myData);
+// }
 
 
+// function changingImg () {
+//         var htmlValue = document.getElementById("action").
+//         var changedImg = 
+// }
 
 
+// --Types of Loop;
+
+// --There are three types of Loop;
+
+// 1.For Loop
+// 2.While Loop
+// 3.Do-While Loop
+
+// --All loops are used for Iteration and Automate the different tasks.
+
+// 1. --For Loop
+
+// let count = 0;
+
+// for (count; count <= 10; count++) {
+//         if (count % 2 === 0) {
+//                 console.log(count)
+//         }
+// }
+
+// 2. --While Loop
+
+// while(count <= 10) {
+//         if(count % 2 === 1)
+//         console.log(count)
+//         count++;
+// }
+
+// 3. --Do-While Loop
+
+// let count = 0;
+// do {
+//         if (count % 2 === 0)
+//         console.log(count)
+//         count++;
+// } while (count <= 10)
 
 
+// . --uses of Following Three Loops in Production Websites
 
+// 1. -- For Loop 
 
+let products = [
+        { id: 2, name: "Smart Watch", price: "$149", img: "watch.jpg" },
+        { id: 1, name: "Wireless Headphones", price: "$99", img: "Wireless Headphone.jpg" },
+        { id: 3, name: "Bluetooth Speaker", price: "$49", img: "speaker.jpg" },
+]
 
+let container = document.getElementById('container')
 
+console.log("products=>", products)
+let htmlElements = "";
 
+for (const key in products) {
+        htmlElements += `
+        <div class="product-card" data-id="${products[key].id}">
+      <img src="${products[key].img}" alt="${products[key].name}" />
+      <h3>${products[key].name}</h3>
+      <p class="price">${products[key].price}</p>
+      <button onclick="addToCart(${products[key].id})">Add to Cart</button>
+    </div>
+        `
+        console.log('poruct=>', products)
+}
+container.innerHTML = htmlElements
 
+for (const key in products) {
+        htmlElements += `
+        <div class="product-card" data-id="${products[key].id}">
+        <img src="${products[key].img}" alt="${products[key].name}" />
+        <h3>${products[key].name}</h3>
+        <p class="price">${products[key].price}</p>
+        <button onclick="addToCart(${products[key].id})">Add to Cart</button>
+        </div>
+        `
+}
 
+const seeAllPro = document.getElementById('seeBtn')
 
-
-
-
-
-
-
-
-
-
-
+seeAllPro.addEventListener('click',()=>{
+        console.log("btn is working ")
+        container.innerHTML = htmlElements
+})      
