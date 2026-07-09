@@ -1,0 +1,225 @@
+/* Card Container */
+.product-card {
+    max-width: 224px;
+    /* max-w-56 */
+    background-color: #ffffff;
+    /* bg-white */
+    border: 1px solid rgba(107, 114, 128, 0.2);
+    /* border border-gray-500/20 */
+    border-radius: 0.375rem;
+    /* rounded-md */
+    padding: 0.5rem 0.75rem;
+    /* py-2 px-3 */
+    font-family: sans-serif;
+    /* fallback font for generic systems */
+}
+
+/* Responsive Padding for Card Container */
+@media (min-width: 768px) {
+    .product-card {
+        padding-left: 1rem;
+        /* md:px-4 */
+        padding-right: 1rem;
+    }
+}
+
+/* Image Section Wrapper */
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.5rem;
+    /* px-2 */
+    padding-right: 0.5rem;
+    cursor: pointer;
+    /* cursor-pointer */
+}
+
+/* Image Styling and Zoom Animation on Wrapper Hover */
+.product-image {
+    max-width: 160px;
+    /* max-w-[160px] */
+    transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition */
+}
+
+.image-container:hover .product-image {
+    transform: scale(1.05);
+    /* group-hover:scale-105 */
+}
+
+/* General Text & Typography Settings */
+.product-details {
+    color: rgba(107, 114, 128, 0.6);
+    /* text-gray-500/60 */
+    font-size: 0.875rem;
+    /* text-sm */
+}
+
+.category {
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+    color: #374151;
+    /* text-gray-700 */
+    font-weight: 500;
+    /* font-medium */
+    font-size: 1.125rem;
+    /* text-lg */
+    width: 100%;
+    /* w-full */
+    white-space: nowrap;
+    /* truncate components */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Ratings Flex Alignment */
+.rating-container {
+    display: flex;
+    align-items: center;
+    gap: 0.125rem;
+    /* gap-0.5 */
+}
+
+/* Star Icons Configuration */
+.star-icon {
+    width: 0.875rem;
+    /* w-3.5 (14px) */
+    height: 0.875rem;
+    /* h-3.5 (14px) */
+}
+
+.star-icon.active {
+    fill: #615fff;
+    /* fill-[#615fff] */
+}
+
+.star-icon.muted {
+    fill: #615fff;
+    fill-opacity: 0.35;
+    /* fill-opacity-35 */
+}
+
+.review-count {
+    margin: 0;
+}
+
+/* Footer Flex Layout */
+.purchase-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    /* mt-2 */
+}
+
+/* Price Typography */
+.price {
+    margin: 0;
+    font-size: 1rem;
+    /* text-base */
+    font-weight: 500;
+    /* font-medium */
+    color: #6366f1;
+    /* text-indigo-500 */
+}
+
+.original-price {
+    color: rgba(107, 114, 128, 0.6);
+    /* text-gray-500/60 */
+    font-size: 0.75rem;
+    /* text-xs */
+    text-decoration: line-through;
+    /* line-through */
+}
+
+/* Price Responsive Sizes */
+@media (min-width: 768px) {
+    .price {
+        font-size: 1.25rem;
+        /* md:text-xl */
+    }
+
+    .original-price {
+        font-size: 0.875rem;
+        /* md:text-sm */
+    }
+}
+
+/* Add to Cart Button layout and styling */
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    /* gap-1 */
+    background-color: #e0e7ff;
+    /* bg-indigo-100 */
+    border: 1px solid #c7d2fe;
+    /* border-indigo-300 */
+    width: 64px;
+    /* w-[64px] */
+    height: 34px;
+    /* h-[34px] */
+    border-radius: 0.25rem;
+    /* rounded */
+    color: #4f46e5;
+    /* text-indigo-600 */
+    font-weight: 500;
+    /* font-medium */
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    /* transition-colors */
+}
+
+.add-button:hover {
+    background-color: #c7d2fe;
+    /* hover:bg-indigo-200 */
+}
+
+@media (min-width: 768px) {
+    .add-button {
+        width: 80px;
+        /* md:w-[80px] */
+    }
+}
+
+/* SVG Cart Details */
+.cart-icon {
+    width: 0.875rem;
+    /* w-3.5 */
+    height: 0.875rem;
+    /* h-3.5 */
+    stroke: #615fff;
+    /* stroke-[#615fff] */
+    stroke-linecap: round;
+    /* stroke-linecap-round */
+    stroke-linejoin: round;
+    /* stroke-linejoin-round */
+    fill: none;
+}
+
+#seeMoreBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    background-color: #e0e7ff;
+    border: 1px solid #c7d2fe;
+    width: 130px;
+    height: 38px;
+    border-radius: 0.25rem;
+    color: #4f46e5;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    margin-top: 8px;
+}
+
+#seeMoreBtn:hover {
+    background-color: #c7d2fe;
+    /* hover:bg-indigo-200 */
+}
