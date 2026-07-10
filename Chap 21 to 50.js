@@ -663,7 +663,7 @@ const productsData = [
                 category: "Accessories",
                 inStock: "inStock",
                 rating: 4.7,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
         {
                 id: 2,
@@ -672,7 +672,7 @@ const productsData = [
                 category: "Electronics",
                 inStock: "inStock",
                 rating: 4.5,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
         {
                 id: 3,
@@ -681,7 +681,7 @@ const productsData = [
                 category: "Electronics",
                 inStock: false,
                 rating: 4.8,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
         {
                 id: 4,
@@ -690,7 +690,7 @@ const productsData = [
                 category: "Fitness",
                 inStock: "inStock",
                 rating: 4.2,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
         {
                 id: 5,
@@ -699,82 +699,72 @@ const productsData = [
                 category: "Fitness",
                 inStock: "inStock",
                 rating: 4.2,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
         {
-                id: 5,
+                id: 6,
                 title: "Insulated Stainless Steel Bottle",
                 price: 24.95,
                 category: "Fitness",
                 inStock: "inStock",
                 rating: 4.2,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
         {
-                id: 5,
+                id: 7,
                 title: "Insulated Stainless Steel Bottle",
                 price: 24.95,
                 category: "Fitness",
                 inStock: "inStock",
                 rating: 4.2,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
         {
-                id: 5,
+                id: 8,
                 title: "Insulated Stainless Steel Bottle",
                 price: 24.95,
                 category: "Fitness",
                 inStock: "inStock",
                 rating: 4.2,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
         {
-                id: 5,
+                id: 9,
                 title: "Insulated Stainless Steel Bottle",
                 price: 24.95,
                 category: "Fitness",
                 inStock: "inStock",
                 rating: 4.2,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
         {
-                id: 5,
+                id: 10,
                 title: "Insulated Stainless Steel Bottle",
                 price: 24.95,
                 category: "Fitness",
                 inStock: "inStock",
                 rating: 4.2,
-                img:'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
         },
 ];
 
-let mainContainer = document.getElementById('container');
-let SeeMoreBtn = document.getElementById('seeMoreBtn');
+let initialIndex = 100;
+let UpdatedIndex = 12;
 
-let initialIndex = 0;
-let upgradeIndex = 10;
 
-let cardInHTML = '';
+let mainContainer = document.getElementById('container')
+let seeMoreBtn = document.getElementById('seeMoreBtn')
 
-function renderProduct(){
-        for(let i = initialIndex; i < initialIndex + upgradeIndex; i++){
-                console.log("render is runing")
-                for(let key in productsData){
-                        console.log("productsData=>",productsData[key])
-                        
-                }
+let card = '';
+
+
+for (let i = initialIndex; i < initialIndex + UpdatedIndex; i++) {
+        if (i >= productsData[i]) {
+                seeMoreBtn.style.display='none'
+                break;
         }
 
-}
-renderProduct()
-
-
-
-
-// function renderProducts() {
-//                 for (const key in productsData) {
-//                 console.log(`loop is Working ${key}`)
-//                 cardInHTML += `
+        card.innerHTML += `
 //         <div class="mainContainer">
 //     <div class="card product-card" id="${productsData[key].key}">
 //         <!-- Product Image Wrapper -->
@@ -835,14 +825,7 @@ renderProduct()
 // </div>`
 
 
-// }
-// }
-// renderProducts()
 
-// mainContainer.innerHTML = cardInHTML
-
-// let SeeMoreBtn = document.getElementById('seeMoreBtn');
-// SeeMoreBtn.addEventListener("click",()=>{
-//         mainContainer.innerHTML += cardInHTML
-//         SeeMoreBtn.style.display="none"
-// })
+        // console.log(i <= productsData[i])
+        // console.log(`productsData=> ${i}`, productsData[i])
+}
