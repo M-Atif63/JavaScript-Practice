@@ -655,127 +655,127 @@
 
 // 1. -- For Loop 
 
-const productsData = [
-        {
-                id: 1,
-                title: "Minimalist Leather Backpack",
-                price: 89.99,
-                category: "Accessories",
-                inStock: "inStock",
-                rating: 4.7,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-        {
-                id: 2,
-                title: "Wireless Noise-Canceling Headphones",
-                price: 149.50,
-                category: "Electronics",
-                inStock: "inStock",
-                rating: 4.5,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-        {
-                id: 3,
-                title: "Ergonomic Mechanical Keyboard",
-                price: 110.00,
-                category: "Electronics",
-                inStock: false,
-                rating: 4.8,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-        {
-                id: 4,
-                title: "Insulated Stainless Steel Bottle",
-                price: 24.95,
-                category: "Fitness",
-                inStock: "inStock",
-                rating: 4.2,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-        {
-                id: 5,
-                title: "Insulated Stainless Steel Bottle",
-                price: 24.95,
-                category: "Fitness",
-                inStock: "inStock",
-                rating: 4.2,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-        {
-                id: 6,
-                title: "Insulated Stainless Steel Bottle",
-                price: 24.95,
-                category: "Fitness",
-                inStock: "inStock",
-                rating: 4.2,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-        {
-                id: 7,
-                title: "Insulated Stainless Steel Bottle",
-                price: 24.95,
-                category: "Fitness",
-                inStock: "inStock",
-                rating: 4.2,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-        {
-                id: 8,
-                title: "Insulated Stainless Steel Bottle",
-                price: 24.95,
-                category: "Fitness",
-                inStock: "inStock",
-                rating: 4.2,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-        {
-                id: 9,
-                title: "Insulated Stainless Steel Bottle",
-                price: 24.95,
-                category: "Fitness",
-                inStock: "inStock",
-                rating: 4.2,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-        {
-                id: 10,
-                title: "Insulated Stainless Steel Bottle",
-                price: 24.95,
-                category: "Fitness",
-                inStock: "inStock",
-                rating: 4.2,
-                img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
-        },
-];
+// const productsData = [
+//         {
+//                 id: 1,
+//                 title: "Minimalist Leather Backpack",
+//                 price: 89.99,
+//                 category: "Accessories",
+//                 inStock: "inStock",
+//                 rating: 4.7,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+//         {
+//                 id: 2,
+//                 title: "Wireless Noise-Canceling Headphones",
+//                 price: 149.50,
+//                 category: "Electronics",
+//                 inStock: "inStock",
+//                 rating: 4.5,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+//         {
+//                 id: 3,
+//                 title: "Ergonomic Mechanical Keyboard",
+//                 price: 110.00,
+//                 category: "Electronics",
+//                 inStock: false,
+//                 rating: 4.8,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+//         {
+//                 id: 4,
+//                 title: "Insulated Stainless Steel Bottle",
+//                 price: 24.95,
+//                 category: "Fitness",
+//                 inStock: "inStock",
+//                 rating: 4.2,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+//         {
+//                 id: 5,
+//                 title: "Insulated Stainless Steel Bottle",
+//                 price: 24.95,
+//                 category: "Fitness",
+//                 inStock: "inStock",
+//                 rating: 4.2,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+//         {
+//                 id: 6,
+//                 title: "Insulated Stainless Steel Bottle",
+//                 price: 24.95,
+//                 category: "Fitness",
+//                 inStock: "inStock",
+//                 rating: 4.2,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+//         {
+//                 id: 7,
+//                 title: "Insulated Stainless Steel Bottle",
+//                 price: 24.95,
+//                 category: "Fitness",
+//                 inStock: "inStock",
+//                 rating: 4.2,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+//         {
+//                 id: 8,
+//                 title: "Insulated Stainless Steel Bottle",
+//                 price: 24.95,
+//                 category: "Fitness",
+//                 inStock: "inStock",
+//                 rating: 4.2,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+//         {
+//                 id: 9,
+//                 title: "Insulated Stainless Steel Bottle",
+//                 price: 24.95,
+//                 category: "Fitness",
+//                 inStock: "inStock",
+//                 rating: 4.2,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+//         {
+//                 id: 10,
+//                 title: "Insulated Stainless Steel Bottle",
+//                 price: 24.95,
+//                 category: "Fitness",
+//                 inStock: "inStock",
+//                 rating: 4.2,
+//                 img: 'https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/card/productImageWithoutBg.png'
+//         },
+// ];
 
-let initialIndex = 100;
-let UpdatedIndex = 12;
-
-
-let mainContainer = document.getElementById('container')
-let seeMoreBtn = document.getElementById('seeMoreBtn')
-
-let card = '';
+// let initialIndex = 100;
+// let UpdatedIndex = 12;
 
 
-for (let i = initialIndex; i < initialIndex + UpdatedIndex; i++) {
-        if (i >= productsData[i]) {
-                seeMoreBtn.style.display='none'
-                break;
-        }
+// let mainContainer = document.getElementById('container')
+// let seeMoreBtn = document.getElementById('seeMoreBtn')
 
-        card.innerHTML += `
+// let card = '';
+
+
+// for (let i = initialIndex; i < initialIndex + UpdatedIndex; i++) {
+//         if (i >= productsData[i]) {
+//                 seeMoreBtn.style.display='none'
+//                 break;
+//         }
+
+//         card.innerHTML += `
 //         <div class="mainContainer">
 //     <div class="card product-card" id="${productsData[key].key}">
 //         <!-- Product Image Wrapper -->
 //         <div class="image-container proImgDiv">
 //             <img class="product-image" src="${productsData[key].img}" alt="Product Image" />
 //         </div>
-        
+
 //         <!-- Product Details -->
 //         <div class="product-details proDetailDiv">
 //             <p class="category">${productsData[key].category || 'Sports'}</p>
-            
+
 //             <div class="titleAndPriceDiv">
 //                 <h1 class="proTitle title">${productsData[key].title}</h1>
 //                 <div class="price-wrapper">
@@ -783,7 +783,7 @@ for (let i = initialIndex; i < initialIndex + UpdatedIndex; i++) {
 //                     <!-- Optional: Add original price calculation if your data supports it -->
 //                 </div>
 //             </div>
-            
+
 //             <h3 class="proInstock">${productsData[key].inStock}</h3>
 
 //             <!-- Rating Stars (Evaluates dynamic value from your array) -->
@@ -826,6 +826,38 @@ for (let i = initialIndex; i < initialIndex + UpdatedIndex; i++) {
 
 
 
-        // console.log(i <= productsData[i])
-        // console.log(`productsData=> ${i}`, productsData[i])
-}
+// console.log(i <= productsData[i])
+// console.log(`productsData=> ${i}`, productsData[i])
+// }
+
+
+// let num = '25 this is a number  '
+
+// let modifyNum = parseInt(num)
+
+// console.log(modifyNum)
+
+
+// let num = '25.25 this is';
+
+// let modifyNum = parseInt(num)  // output 25
+// let modifyNum = parseFloat(num) // output 25.25
+
+// let num = "this is not a number";
+// let modifyNum = parseFloat(num) // output NaN
+
+// console.log(modifyNum)
+
+// let prpmt = prompt("Enter Number")
+
+// let num = 10;
+
+// let modify = isNaN(num)
+
+// console.log(modify)
+
+// // let modifyNum = parseInt()
+
+
+
+
