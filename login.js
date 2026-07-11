@@ -22,7 +22,7 @@
 //         eml:'atif@gmail.com',
 //         pass:12345
 //     },
-    
+
 // ]
 
 
@@ -52,12 +52,54 @@
 //     }
 // )
 
+// let usersData = [
+//     {
+//         name: 'ali',
+//         eml: 'ali@gmail.com',
+//         pass: 12345
+//     },
+//     {
+//         name: 'ahmed',
+//         eml: 'ahmed@gmail.com',
+//         pass: 12345
+//     },
+//     {
+//         name: 'bilal',
+//         eml: 'bilal@gmail.com',
+//         pass: 12345
+//     },
+//     {
+//         name: 'atif',
+//         eml: 'atif@gmail.com',
+//         pass: 12345
+//     },
 
+// ]
 
+// let fetchData = new Promise((resolve, reject) => {
+//     console.log("data is fetching please wait")
+//     for (const key in usersData) {
+//         console.log('usersData=>', usersData[key].name)
+//         let username = 'ali';
+//         setTimeout(() => {
+//             if (username === usersData[key].name) {
+//                 resolve("data fetch successfully")
+//             } else {
+//                 reject("facing some problems in fetching data");
+//             }
+//         },3000)
+//     }
+// })
 
-
-
-
+// fetchData.then(
+//     function onFilfullation(result) {
+//         console.log(result)
+//     }
+// ).catch(
+//     function onRejection(error) {
+//         console.log(error)
+//     }
+// )
 
 
 
