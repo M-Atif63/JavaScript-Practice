@@ -107,6 +107,24 @@
 // console.log(arr)
 
 
+// let xhttp = new XMLHttpRequest()
+
+// xhttp.onreadystatechange = function () {
+//     if(this.readyState == 4 && this.status == 200){
+//         console.log("data =>",this.response)
+//     }else{
+//         console.log("data fetching failed")
+//     }
+// }
+
+// xhttp.open('Get','https://jsonplaceholder.typicode.com/users',true)
+// xhttp.send()
+
+
+
+
+
+
 
 
 
