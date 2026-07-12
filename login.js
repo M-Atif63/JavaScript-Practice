@@ -121,7 +121,19 @@
 // xhttp.send()
 
 
-
+fetch("https://jsonplaceholder.typicode.com/users")
+    .then((response) => {
+        console.log("response=>", response.status)
+        let dataResponse = response.json()
+        console.log('dataResponse=>',dataResponse)
+        return dataResponse
+    }).then((result)=>{
+        console.log("result=>",result)
+        let data = result
+        data.map((items)=>{
+            console.log(items.length)
+        })
+    })
 
 
 
