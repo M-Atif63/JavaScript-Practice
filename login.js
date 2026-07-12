@@ -107,6 +107,9 @@
 // console.log(arr)
 
 
+
+// --- geting data with XMLHttpRequest object
+
 // let xhttp = new XMLHttpRequest()
 
 // xhttp.onreadystatechange = function () {
@@ -120,20 +123,25 @@
 // xhttp.open('Get','https://jsonplaceholder.typicode.com/users',true)
 // xhttp.send()
 
+// --- Geting Data With fetch method
 
-fetch("https://jsonplaceholder.typicode.com/users")
-    .then((response) => {
-        console.log("response=>", response.status)
-        let dataResponse = response.json()
-        console.log('dataResponse=>',dataResponse)
-        return dataResponse
-    }).then((result)=>{
-        console.log("result=>",result)
-        let data = result
-        data.map((items)=>{
-            console.log(items.length)
-        })
-    })
+// fetch("https://jsonplaceholder.typicode.com/users")
+//     .then((response) => {
+//         console.log("response=>", response.status)
+//         let dataResponse = response.json()
+//         console.log('dataResponse=>',dataResponse)
+//         return dataResponse
+//     }).then((result)=>{
+//         console.log("result=>",result)
+//         let data = result
+//         data.map((items)=>{
+//             console.log(items.length)
+//         })
+//     })
+
+
+
+
 
 
 
