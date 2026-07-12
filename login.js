@@ -149,8 +149,8 @@ let submitBtn = document.getElementById('submitBtn');
 
 submitBtn.addEventListener('click', (e) => {
     // let userData = {
-    //     userName: Name.value,
-    //     email: email.value,
+        //     userName: Name.value,
+        //     email: email.value,
     //     pass: password.value
     // }
     e.preventDefault()
@@ -172,9 +172,15 @@ submitBtn.addEventListener('click', (e) => {
     })
 })
 
+let deleteBtn = document.getElementById('deleteBtn')
 
-
-
+deleteBtn.addEventListener('click',(e)=>{
+    e.preventDefault()
+    fetch('https://jsonplaceholder.typicode.com/posts/1',{
+        method:'DELETE',
+    }).then((response)=>{ return response})
+    .then((data)=>console.log(data))
+})
 
 
 
