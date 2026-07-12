@@ -125,22 +125,52 @@
 
 // --- Geting Data With fetch method
 
-// fetch("https://jsonplaceholder.typicode.com/users")
-//     .then((response) => {
-//         console.log("response=>", response.status)
-//         let dataResponse = response.json()
-//         console.log('dataResponse=>',dataResponse)
-//         return dataResponse
-//     }).then((result)=>{
-//         console.log("result=>",result)
-//         let data = result
-//         data.map((items)=>{
-//             console.log(items.length)
-//         })
-//     })
+fetch('json/users_data.json').then((response) => {
+    console.log("response=>", response.status)
+    let dataResponse = response.json()
+    console.log('dataResponse=>', dataResponse)
+    return dataResponse
+}).then((result) => {
+    console.log("result=>", result)
+    let data = result
+    data.map((items) => {
+        console.log(items.length)
+    })
+}).catch((error) => console.log('error=>', error))
 
 
+// --- Posting Data With fetch method
 
+// let Name = document.getElementById('userName');
+// let email = document.getElementById('email');
+// let password = document.getElementById('password');
+
+let submitBtn = document.getElementById('submitBtn');
+
+submitBtn.addEventListener('click', (e) => {
+    // let userData = {
+    //     userName: Name.value,
+    //     email: email.value,
+    //     pass: password.value
+    // }
+    e.preventDefault()
+    fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'POST',
+        body: JSON.stringify({
+            userName: document.getElementById('userName').value,
+            eml: document.getElementById('email').value,
+            pass: document.getElementById('password').value
+        }),
+        headers: {
+            'Content-type': 'application/json'
+        }
+    }).then((response)=>response.json())
+    .then((result)=> {
+        for(let key in result){
+            console.log(key + ':' + result[key])
+        }
+    })
+})
 
 
 

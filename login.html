@@ -5,10 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
-</head>
 
-<body><h1>Login page</h1>
+<body>
+    <h1>Login page</h1>
+    <form>
+        <label>Name : <input type="text" id="userName" placeholder="Name" autocomplete="on"></label><br><br>
+        <label>Email : <input type="email" id="email" placeholder="email" autocomplete="on"></label><br><br>
+        <label>Password : <input type="password" id="password" placeholder="password"
+                autocomplete="off"></label><br><br>
+        <button id="submitBtn">Submit</button>
+        <button id="UpdateBtn">Update</button>
+    </form>
+    <h1 id="output"></h1>
+    </head>
+
 </body>
 <script type="module" src="login.js"></script>
-
 </html>
